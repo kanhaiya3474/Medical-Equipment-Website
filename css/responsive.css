@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1250px !important;
+    }
+}
+
+@media screen and (min-width:150px) and (max-width:992px) {
+    .banner-left h1 {
+        font-size: 28px !important;
+    }
+
+    .icon-dance {
+        display: none;
+    }
+
+    .banner-left p {
+        font-size: 12px;
+    }
+
+    .banner-right img {
+        display: none;
+    }
+
+    .timer div {
+        min-width: 30px !important;
+    }
+
+    .arrival-card {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

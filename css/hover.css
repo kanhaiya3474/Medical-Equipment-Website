@@ -1,0 +1,50 @@
+/* Hover Section */
+.navbar-item:hover .nav-link{
+    color: #0dcaf0 !important;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icon-circle:hover{
+    border: 1px solid #0dcaf0;
+    cursor: pointer;
+}
+.carousel-card img:hover {
+    transform: perspective(500px) rotateY(180deg);
+}
+.carousel-card:hover {
+    background: linear-gradient(to bottom, #d5eef3, #94e1fb);
+    cursor: pointer;
+}
+
+.carousel-btn:hover {
+    background: #1192ae;
+}
+.arrival-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px #00000020;
+    cursor: pointer;
+}
+.shopping-card-img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px #00000020;
+    cursor: pointer;
+}
+.best-seller-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px #00000020;
+    cursor: pointer;
+}
+.best-seller-add img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.hvr-grow:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px #00000020;
+    cursor: pointer;
+}
+.hvr-zoom:hover {
+    transform: scale(1.3);
+    box-shadow: 0 8px 20px #00000020;
+    cursor: pointer;
+}
